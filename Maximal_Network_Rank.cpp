@@ -1,10 +1,10 @@
 #include <vector>
 #include <iostream>
-/* 
- * Topic: [Week 1] [LeetCode] [Graph] 1615. Maximal Network Rank
- * Author: CHEN, TSUNG-YU
- * Keyword: Week 1, LeetCode, Graph, Medium, C++, Maximal Network Rank, Degree, Simple Graph, Vector, Adjacent
- */
+/**
+ *  Topic: [Week 1] [LeetCode] [Graph] 1615. Maximal Network Rank
+ *  Author: CHEN, TSUNG-YU
+ *  Keyword: Week 1, LeetCode, Graph, Medium, C++, Maximal Network Rank, Degree, Simple Graph, Vector, Adjacent
+ **/
 
 using namespace std;
 struct Node
@@ -14,11 +14,12 @@ struct Node
 };
 bool compareEdge(vector<int> edge1, vector<int> edge2)
 {
-    /** edge1 and edge2 are are in the form of (Node1.name, Node2.name) 
+    /** 
+     *  edge1 and edge2 are are in the form of (Node1.name, Node2.name) 
      *  Designed for the built-in sort API
      *  With this compare function, edge whose first node's name (an int) is small will be placed in the front
      *  If two edges have the same first node, edge whose second node's name (an int) is small will be placed in the front
-    **/
+     **/
     if (edge1[0] > edge2[0])
         return false;
     else if (edge1[0] == edge2[0])
@@ -28,7 +29,8 @@ bool compareEdge(vector<int> edge1, vector<int> edge2)
 }
 bool compareNode(Node node1, Node node2)
 {
-    /** Designed for the built-in sort API
+    /** 
+     *  Designed for the built-in sort API
      *  Nodes with larger degree will be placed in the front
      *  If the degree of two node are the same, the one with small name (name is an int) will be placed in the front.
      **/
