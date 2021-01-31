@@ -1,7 +1,7 @@
 /**
  *  Topic: [Week 3-B] [LeetCode] [Graph] 1584. Min Cost to Connect All Points
  *  Author: CHEN, TSUNG-YU
- *  Keyword: Week 3, LeetCode, Graph, Medium, C++, Prim's Algorithm, Manhattan Distance, Undirected Weighted Graph, Priority Queue
+ *  Keyword: Week 3, LeetCode, Graph, Medium, C++, Prim's Algorithm, Minimum Spanning Tree, Manhattan Distance, Undirected Weighted Graph, Priority Queue
  **/
 
 #include <math.h>
