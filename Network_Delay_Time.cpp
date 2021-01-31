@@ -1,3 +1,9 @@
+/**
+ *  Topic: [Week 3-1] [LeetCode] [Graph] 743. Network Delay Time
+ *  Author: CHEN, TSUNG-YU
+ *  Keyword: Week 3, LeetCode, Graph, Medium, C++, Dijkstra's algorithm, Directed Weighted Graph
+ **/
+
 struct node
 {
     int name;
