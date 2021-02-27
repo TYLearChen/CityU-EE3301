@@ -1,7 +1,7 @@
 /**
  *  Topic: [Week 6] [LeetCode] [DP] 877. Stone Game
  *  Author: CHEN, TSUNG-YU
- *  Keyword: Week 6, LeetCode, Dynamic Programming, Medium, C++, Minimax Search, Recusion
+ *  Keyword: Week 6, LeetCode, Dynamic Programming, Medium, C++, Minimax Search, Recursion
  **/
 
 class Solution {
@@ -14,8 +14,8 @@ public:
             return score[start][end];
 
         /** boundary condition **/
-        else if ((end - start) + 1 == 2)
-            score[start][end] = abs(piles[start] - piles[end]);
+        else if (end == start)
+            score[start][end] = piles[start];
         /** Max policy (our turn) **/
         else if ((end - start) % 2 == 0)
             score[start][end] = max(piles[start] + pickMax(piles, start+1, end, score), 
