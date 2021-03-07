@@ -1,6 +1,11 @@
+/**
+ *  [Week 5] [ICPC] [Graph] Knight Search
+ *  Author: CHEN, TSUNG-YU
+ *  Keyword: Week 5, ICPC, Graph, C++, Breadth-first Search
+ **/
+
 #include <iostream>
 #include <string>
-#include <utility>
 #include <utility>
 #include <queue>
 using namespace std;
