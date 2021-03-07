@@ -9,9 +9,9 @@ public:
     int countVowelStrings(int n) 
     {        
         /** initialising the loopUp table with 0 
-            Since a row will not be used after its next row is computed, only one row is needed.
-            (e.g., to compute the case when n=4, we will use only info of n=3)
-            We can thus reduce the use of memory
+         *  Since a row will not be used after its next row is computed, only one row is needed.
+         *  (e.g., to compute the case when n=4, we will use only info of n=3)
+         *  We can thus reduce the use of memory.
         **/
         int num_comb[5] = {0};
         int sum = 0;
