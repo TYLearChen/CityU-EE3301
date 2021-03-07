@@ -1,5 +1,5 @@
 /**
- *  Topic: [Week 7] [LeetCode] [Tree] 1641. Count Sorted Vowel Strings
+ *  Topic: [Week 7] [LeetCode] [DP] 1641. Count Sorted Vowel Strings
  *  Author: CHEN, TSUNG-YU
  *  Keyword: Week 7, LeetCode, Dynamic Programming
  **/
