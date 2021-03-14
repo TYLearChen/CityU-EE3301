@@ -17,7 +17,7 @@ public:
         vector<vector<int> > property(2, vector<int>(4, 0));
         for (int day = 0; day < prices.size(); day++)
         {
-            /** boundary condition **/
+            /** initialising **/
             if (day == 0)
             {
                 property[day%2][SELL] = 0;
@@ -25,6 +25,7 @@ public:
                 property[day%2][WITH] = 0;
                 property[day%2][WO]   = 0;
             }
+            /** boundary condition **/
             else if (day == 1)
             {
                 property[day%2][SELL] = property[(day-1)%2][BUY] + prices[day];
@@ -32,6 +33,7 @@ public:
                 property[day%2][WITH] = property[(day-1)%2][BUY];
                 property[day%2][WO]   = property[(day-1)%2][WO];
             }
+            /** recurrence relation **/
             else
             {
                 property[day%2][SELL] = max(
