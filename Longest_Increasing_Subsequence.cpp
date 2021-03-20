@@ -1,5 +1,5 @@
 /**
- *  Topic: [Week 8] [LeetCode] [DP] 300. Longest Increasing Subsequence
+ *  Topic: [Week 9] [LeetCode] [DP] 300. Longest Increasing Subsequence
  *  Author: CHEN, TSUNG-YU
  *  Keyword: Week 9, LeetCode, Dynamic Programming
  *  Reference: https://leetcode.com/problems/longest-increasing-subsequence/discuss/74836/My-easy-to-understand-O(n2)-solution-using-DP-with-video-explanation
