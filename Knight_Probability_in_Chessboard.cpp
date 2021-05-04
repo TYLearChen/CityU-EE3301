@@ -1,3 +1,9 @@
+/**
+ *  Topic: [Week 15] [LeetCode] [DP] 688. Knight Probability in Chessboard
+ *  Author: CHEN, TSUNG-YU
+ *  Keyword: Week 15, LeetCode, Dynamic Programming, Chessboard, Probability
+ *  Problem: https://leetcode.com/problems/knight-probability-in-chessboard/
+ **/
 class Solution {
     // directions for moving the chess
     int move[2][8] = { {1, -1, 1, -1, 2, -2,  2, -2}, 
